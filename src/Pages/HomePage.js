@@ -104,6 +104,7 @@ function HomePage() {
                         ))}
                     </div>
                 ) : (
+                    <div className="table-responsive">
                     <table className="table table-bordered table-striped">
                         <thead className="thead-dark">
                             <tr>
@@ -135,7 +136,8 @@ function HomePage() {
                             ))}
                         </tbody>
                     </table>
-
+                </div>
+                
                 )}
             </div>
         </>
