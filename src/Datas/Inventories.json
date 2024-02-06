@@ -1,0 +1,51 @@
+{
+    "Inventories": [
+        {
+            "ItemId":1,
+            "ItemName": "Electric Sockets",
+            "ItemDescription": "Mini 2.5 length electric metallic sockets",
+            "ItemPriceINR": 1500,
+            "AvailableQuantity": 10,
+            "Location": "India"
+        },
+        {
+            "ItemId":2,
+            "ItemName": "Switches",
+            "ItemDescription": "Classic silver coated switches of 30mm inline width",
+            "ItemPriceINR": 2000,
+            "AvailableQuantity": 20,
+            "Location": "India"
+        },
+        {
+            "ItemId":3,
+            "ItemName": "DC Motors",
+            "ItemDescription": "Power motors of high durable internal pumping",
+            "ItemPriceINR": 6000,
+            "AvailableQuantity": 50,
+            "Location": "India"
+        },
+        {
+            "ItemId":4,
+            "ItemName": "LED Lights",
+            "ItemDescription": "5m lights of 3 color combinations",
+            "ItemPriceINR": 500,
+            "AvailableQuantity": 60,
+            "Location": "India"
+        },
+        {
+            "ItemId":5,
+            "ItemName": "LAN Cables",
+            "ItemDescription": "Temperature resistance cables",
+            "ItemPriceINR": 300,
+            "AvailableQuantity": 80,
+            "Location": "India"
+        },{
+            "ItemId":6,
+            "ItemName": "LAN Cables",
+            "ItemDescription": "Temperature resistance cables",
+            "ItemPriceINR": 300,
+            "AvailableQuantity": 80,
+            "Location": "India"
+        }
+    ]
+}
