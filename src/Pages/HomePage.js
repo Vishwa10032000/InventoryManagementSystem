@@ -84,14 +84,14 @@ function HomePage() {
                 {isGridView ? (
                     <div className='row'>
                         {inventory.map((item) => (
-                            <div className='col-md-4 my-3' key={item.id}>
+                            <div className='col-md-6 col-lg-3 col-12 col-sm-12 my-3' key={item.id}>
                                 <div className='p-3 border rounded'>
                                     <h3>{item.ItemName}</h3>
                                     <h6>{item.ItemDescription}</h6>
                                     <h6><CurrencyRupee /> {item.ItemPriceINR} </h6>
                                     <h6><ProductionQuantityLimits /> {item.AvailableQuantity}</h6>
                                     <h6><FmdGood /> {item.Location}</h6>
-                                    <div className='d-flex gap-3 justify-content-around'>
+                                    <div className='d-flex gap-2 justify-content-around'>
                                         <Link className='w-100 btn btn-primary' to={`/ItemFormPage/${item.id}`} onClick={() => handleEdit(item.id)}>
                                             <Edit /> Edit
                                         </Link>

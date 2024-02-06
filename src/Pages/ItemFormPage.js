@@ -92,7 +92,7 @@ function ItemFormPage() {
                 <h1 className='text-center'>{id === 'new' ? 'Create New' : 'Edit'} Inventory Item</h1>
 
                 <form onSubmit={handleSubmit}>
-                    <div className='row d-flex gap-4'>
+                    <div className='row d-flex gap-3'>
                         <div className='col-md-12'>
                             <label className='form-label'><b>Item Name</b></label>
                             <input type='text' name='ItemName' className='form-control' value={itemData.ItemName} onChange={handleChange} placeholder='Name of the Item' />
