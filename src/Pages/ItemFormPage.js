@@ -49,7 +49,6 @@ function ItemFormPage() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        // Show confirmation popup
         Swal.fire({
             title: 'Are you sure?',
             text: `You are about to ${id === 'new' ? 'create a new item' : 'update item data'}.`,
@@ -89,7 +88,7 @@ function ItemFormPage() {
 
     return (
         <>
-            <div className='container' style={{minHeight:"600px"}}>
+            <div className='container' style={{ minHeight: "600px" }}>
                 <h1 className='text-center'>{id === 'new' ? 'Create New' : 'Edit'} Inventory Item</h1>
 
                 <form onSubmit={handleSubmit}>
